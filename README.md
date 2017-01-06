@@ -1,3 +1,3 @@
-# aviation-units
+# aviation-weight-balance
 
-Units of measurement used in aviation
+Weight and Balance used in aviation
