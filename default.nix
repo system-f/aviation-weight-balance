@@ -19,8 +19,8 @@ let
     aviation-units = pkgs.fetchFromGitHub {
       owner = "data61";
       repo = "aviation-units";
-      rev = "c67a8ed7af0218316a308abbbfa804b896319956";
-      sha256 = "0jhhc4q2p7kg07bl7hk0571rp8k5qg02mgnfy0cm51hj5fd2lihx";
+      rev = "aee9b5c37946acfa28dc8ce96bf71643e01f28c7";
+      sha256 = "0kyqn2mn5yvjngqzapqgidvpj5r664i5afkbj0di0hp2nj7f58ac";
     };
   };
 
