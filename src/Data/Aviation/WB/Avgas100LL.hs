@@ -14,7 +14,7 @@ import Data.Aviation.WB.Weight(Weight)
 import Data.Aviation.WB.Volume(Volume)
 import Numeric.Lens(multiplying)
 
-class Avgas100LL a b | a -> b, b -> where
+class Avgas100LL a b | a -> b, b -> a where
   avgas100LL ::
     Iso' a b
 
