@@ -30,6 +30,9 @@ library
                     base >= 4.8 && < 5
                     , lens >= 4.15 && < 5
                     , aviation-units >= 0.0.1 && < 1
+  if impl(ghc < 8)
+    build-depends:
+      semigroups >= 0.9 && < 0.19
                     
   ghc-options:
                     -Wall
