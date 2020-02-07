@@ -1,0 +1,3 @@
+[submodule "deps/aviation-units"]
+	path = deps/aviation-units
+	url = ../aviation-units.git
